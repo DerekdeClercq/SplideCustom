@@ -18,8 +18,8 @@ _LOGGER = logging.getLogger(__name__)
 
 STEP_API_KEY = vol.Schema(
     {
-        vol.Required("api_key", default="C8AA6764-DF3947E3-A1A0A964-72F937AD"): str,
-        vol.Required("area", default="Midstream"): str,
+        vol.Required("api_key"): str,
+        vol.Required("area"): str,
         vol.Required("interval", default=30): int,
     }
 )
