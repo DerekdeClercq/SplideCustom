@@ -1,0 +1,15 @@
+{
+  "domain": "splide_esp",
+  "name": "Splide ESP",
+  "config_flow": true,
+  "documentation": "https://www.home-assistant.io/integrations/splide_esp",
+  "requirements": [],
+  "ssdp": [],
+  "zeroconf": [],
+  "homekit": {},
+  "dependencies": [],
+  "codeowners": [
+    "@DerekdeClercq"
+  ],
+  "iot_class": "cloud_polling"
+}
